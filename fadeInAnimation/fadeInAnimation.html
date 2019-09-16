@@ -1,0 +1,39 @@
+<a onclick="toogleFadeIn();">Toogle Fadein Animation</a>
+<button class="fadeInButton">
+  click me!
+</button>
+
+<script>
+  function toogleFadeIn() {
+    const fadeInButton = document.getElementsByClassName("fadeInButton")[0];
+    if (fadeInButton.classList.contains("fadeInButton--active")) {
+      fadeInButton.classList.remove("fadeInButton--active");
+    } else {
+      fadeInButton.classList.add("fadeInButton--active");
+    }
+  }
+</script>
+
+<style>
+  .fadeInButton {
+    /* innen Abstand zum Text  */
+    padding: 10px 20px;
+    /* Schrift und Hintergrundfarbe  */
+    color: white;
+    background-color: grey;
+
+    /* button mit abgerundeten Ecken  */
+    border-radius: 4px;
+    /* button ohne sichtbare Umrandung  */
+    border: none;
+
+    transform: translateY(30px);
+    opacity: 0;
+    transition: transform 500ms ease-in, opacity 500ms ease-in;
+  }
+
+  .fadeInButton--active {
+    transform: translateY(0);
+    opacity: 1;
+  }
+</style>
