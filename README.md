@@ -8,7 +8,7 @@
 
 ## <a name="hoverAnimation"></a> Hover Animation
 
-<a href="./hoverAnimation/hoverAnimation.html">Click on me to see a Demo</a>
+<a href="https://chrizzzz.github.io/CSS-Animation-Transition-Examples/hoverAnimation/hoverAnimation.html">Click on me to see a Demo</a>
 
 ```html
 <button class="myButton">
@@ -38,7 +38,7 @@
 ## Fade-In Animation
 
 <a name="FadeInAnimation"/>
-<a href="./fadeInAnimation/fadeInAnimation.html">Click on me to see a Demo</a>
+<a href="https://chrizzzz.github.io/CSS-Animation-Transition-Examples/fadeInAnimation/fadeInAnimation.html">Click on me to see a Demo</a>
 
 ```html
 <button class="myButton">
@@ -85,7 +85,7 @@
 
 ## <a name="LoadingSpinner">Loading-Spinner</a>
 
-<a href="./loadingSpinner/loadingSpinner.html">Click on me to see a Demo</a>
+<a href="https://chrizzzz.github.io/CSS-Animation-Transition-Examples/loadingSpinner/loadingSpinner.html">Click on me to see a Demo</a>
 
 ```html
 <div class="loadingSpinnerContainer">
